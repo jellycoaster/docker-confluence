@@ -32,7 +32,10 @@ RUN /home/confluence.bin -q -varfile /home/response.varfile
 RUN rm -rf /home/confluence.bin
 
 
+VOLUME ["/var/atlassian", "/opt/atlassian/confluence"]
+
 ENTRYPOINT ["/opt/atlassian/confluence/bin/start-confluence.sh", "-fg"]
+
 
 EXPOSE 8000
 EXPOSE 8090
