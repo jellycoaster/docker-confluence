@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 MAINTAINER mintplo <mintplo21@gmail.com>
 
 # Set Envrionmental Variable
-ENV CONFLUENCE_LATEST_VER 5.8.8
+ENV CONFLUENCE_LATEST_VER 5.8.10
 
 
 # Install basic package
